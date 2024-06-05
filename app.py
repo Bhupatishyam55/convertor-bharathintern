@@ -79,6 +79,3 @@ def preprocess_input(bat_team, batsman, bowl_team, bowler, overs, runs, wickets,
 
     return np.array(input_array).reshape(1, -1)
 
-
-if __name__ == '__main__':
-    app.run(debug=True)
